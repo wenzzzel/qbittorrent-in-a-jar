@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/qbittorrent:5.1.2
+FROM lscr.io/linuxserver/qbittorrent:5.1.3
 
 RUN apk add --update --no-cache sshpass
 RUN apk add --update --no-cache openssh
