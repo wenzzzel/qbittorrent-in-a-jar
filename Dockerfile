@@ -14,8 +14,9 @@ ENV PUID=1000
 ENV PGID=1000
 ENV WEBUI_PORT=8080
 ENV TORRENTING_PORT=6881
+USER 1000:1000
 
 EXPOSE 8080
 EXPOSE 6881
 
-VOLUME ["/config", "/seagateexos1", "/seagateexos2"]
+VOLUME ["/config", "/seagateexos1", "/seagateexos2", "/seagateexos3", "/mergeddrives"]
